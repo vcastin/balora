@@ -48,8 +48,6 @@ balora/
 Each `experiments/configs/<group>/sweep_N/` directory contains a `create_config.py`
 (generates the learning-rate × scaling grid of JSON configs into a `config/`
 subfolder) and an `execute_array.slurm` (the SLURM array job that ran it).
-Only the sweeps that were actually run for the paper are kept; the many stale /
-buggy / aborted sweeps have been dropped.
 
 ---
 
@@ -134,9 +132,8 @@ retained sweeps is:
 | **Table 5** | Qwen / MetaMathQA | `qwen_metamath/` sweeps 70, 71, 74, 73, 75 + `best_configs/` |
 | **Table 6** | Peak GPU memory | `experiments/profile_memory.py` |
 
-**Not reproduced by this repo (rank sweeps were not preserved):** Fig. 5, Fig. 11,
-Table 7 and Table 8 (rank ablations of Qwen-2.5-3B on DeepMind Mathematics and
-arXiv). The corresponding sweep configs are missing.
+**Not covered by this repo:** Fig. 5, Fig. 11, Table 7, and Table 8 (rank
+ablations of Qwen-2.5-3B on DeepMind Mathematics and arXiv).
 
 **Illustrative figures with no generating script:** Fig. 1 (method diagram), Fig. 2
 (3D manifold intuition), Fig. 6 (condition-number histograms).
