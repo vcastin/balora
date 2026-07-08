@@ -1,0 +1,11 @@
+{
+    "openhermes": 1.0,
+    "wikitext": 0.38,
+    "openorca": 1.0,
+    "arc": 0.03,
+    "metamath": 1.0,
+    "gsm8k": 0.06,
+    "alpaca": 0.51,
+    "codefeedback": 0.64,
+    "wizardlm": 0.7
+}

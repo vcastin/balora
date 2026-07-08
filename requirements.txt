@@ -1,0 +1,17 @@
+# BaLoRA — Python >= 3.10 required (peft_ga uses match/case).
+#
+# Core training / LoRA-variant experiments (train.py, callbacks.py, peft_ga, reflora):
+torch>=2.2
+transformers>=4.44
+datasets>=2.19
+peft>=0.11
+accelerate>=0.30
+safetensors>=0.4
+filelock
+numpy
+matplotlib
+tensorboard          # runtime_loss_plot.py reads TensorBoard event files
+
+# Synthetic experiments (synthetic/): the toy framework is written in JAX.
+jax>=0.4.20
+jaxlib>=0.4.20

@@ -1,0 +1,20 @@
+{
+    "global_name": "qwen_metamath",
+    "epoch_list": [0.03, 0.06, 0.38, 0.51, 0.64, 0.7, 1.0],
+    "sweep_dictionary": {
+        "LoRA": ["70", "70_bis", "70_tris"],
+        "BaLoRA": ["71", "71_bis", "71_tris"],
+        "OLoRA": ["73", "73_bis", "73_tris"],
+        "DoRA": ["74", "74_bis", "74_tris"],
+        "LoRA-GA": ["75", "75_bis", "75_tris"]
+    },
+    "vmax_over_vmin": 2.0,
+    "colorbar_ticks": null,
+    "colorbar_ticklabels": null,
+    "ylim": [[0.13, 0.17], [0.13, 0.17]],
+    "xlim": [null, null],
+    "yticks": null,
+    "ytick_labels": null,
+    "n_rows": 1,
+    "plot_type": "plot"
+}
