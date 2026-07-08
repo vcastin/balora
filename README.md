@@ -182,6 +182,18 @@ one-layer panel, `[(n, m), (m, m)]` for two layers), `right_scaling` (init scali
 If you use this code, please cite the paper *Balanced LoRA: Removing Parameter
 Invariance to Accelerate Convergence*.
 
+```bibtex
+@misc{castin2026balancedloraremovingparameter,
+      title={Balanced LoRA: Removing Parameter Invariance to Accelerate Convergence}, 
+      author={Valérie Castin and Kimia Nadjahi and Pierre Ablin and Gabriel Peyré},
+      year={2026},
+      eprint={2605.31484},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2605.31484}, 
+}
+```
+
 ## License
 
 See [`LICENSE`](LICENSE).
